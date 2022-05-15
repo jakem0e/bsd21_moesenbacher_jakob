@@ -15,3 +15,5 @@ Hochschule: https://www.campus02.at/
 ## Übungen
 * [exercise 1](/exercise1.md)
 * [exercise 2](/exercise2.md)
+* [exercise 3](/exercise3.md)
+* [exercise 4](/exercise4.md)

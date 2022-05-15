@@ -8,7 +8,8 @@ ein paar
 Absätze
 
 ## Bild (Sunsett Cliffs)
-![Sunsett Cliffs](sunsettCliffs.JPG)
+
+![Sunsett Cliffs](resources/images/sunsettCliffs.JPG)
 
 ## Link
 [FH Campus 02](https://www.campus02.at/)
