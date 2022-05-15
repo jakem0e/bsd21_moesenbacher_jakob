@@ -76,4 +76,12 @@ public class calculatorTest {
     public void factorialExpected03(){
         Assertions.assertEquals(120, calc.factorial(5));
     }
+    @Test
+    public void factorialExpected04(){
+        Assertions.assertEquals(1, calc.factorial(0));
+    }
+    @Test
+    public void factorialExpected05(){
+        Assertions.assertEquals(1, calc.factorial(1));
+    }
 }

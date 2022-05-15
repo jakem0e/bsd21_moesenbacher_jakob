@@ -26,8 +26,14 @@ public class Calculator {
     }
 
     public double factorial(double number1){
-        return 0;
+        if(number1 < 0){
+            return 0;
+        }
+        else if (number1 <= 1 && number1 >= 0){
+            return 1;
+        }
+        else {
+            return number1 * factorial(number1 - 1);
+        }
     }
-
-
 }

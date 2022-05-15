@@ -7,6 +7,7 @@ public class Main {
         System.out.println(calculator.minus(2, 5));
         System.out.println(calculator.divide(2, 5));
         System.out.println(calculator.multiply(2, 5));
+        System.out.println(calculator.factorial(5));
     }
 
 }
