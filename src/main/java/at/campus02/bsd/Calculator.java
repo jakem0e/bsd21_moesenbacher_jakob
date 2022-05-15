@@ -24,4 +24,10 @@ public class Calculator {
         result = number1 * number2;
         return result;
     }
+
+    public double factorial(double number1){
+        return 0;
+    }
+
+
 }

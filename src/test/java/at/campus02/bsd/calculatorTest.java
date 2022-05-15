@@ -3,6 +3,7 @@ package at.campus02.bsd;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+import java.math.*;
 
 public class calculatorTest {
     private Calculator calc;
@@ -58,5 +59,21 @@ public class calculatorTest {
     public void multiplyActual(){
         double result = 5.0*2.0;
         Assertions.assertEquals(result, calc.multiply(5.0, 2.0));
+    }
+
+    //FACTORIAL
+    @Test
+    public void factorialExpected01(){
+        Assertions.assertEquals(0, calc.factorial(-5));
+    }
+
+    @Test
+    public void factorialExpected02(){
+        Assertions.assertEquals(1, calc.factorial(0));
+    }
+
+    @Test
+    public void factorialExpected03(){
+        Assertions.assertEquals(120, calc.factorial(5));
     }
 }
