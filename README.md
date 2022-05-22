@@ -17,6 +17,7 @@ Hochschule: https://www.campus02.at/
 * [exercise 2](/exercise2.md)
 * [exercise 3](/exercise3.md)
 * [exercise 4](/exercise4.md)
+* [exercise 5](/exercise5.md)
 
 ## Konfigurationen
 * [XML for Logging](/src/main/resources/Log4j2.xml.template)
