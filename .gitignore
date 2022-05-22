@@ -1,5 +1,5 @@
 *.pdf
 *.html
 .idea
-target
+target/
 *.log

@@ -39,7 +39,7 @@ public class calculatorTest {
 
     //DIVIDE
     @Test
-    public void divideExpected(){
+    public void divideExpected01(){
         Assertions.assertEquals(2.5, calc.divide(5.0, 2.0));
     }
 
@@ -47,6 +47,12 @@ public class calculatorTest {
     public void divideActual(){
         double result = 5.0/2.0;
         Assertions.assertEquals(result, calc.divide(5.0, 2.0));
+    }
+
+    @Test
+    public void divideExpected02(){Assertions.assertThrows(ArithmeticException.class, () -> {
+        calc.divide(5, 0);
+    });
     }
 
     //MULTIPLY
